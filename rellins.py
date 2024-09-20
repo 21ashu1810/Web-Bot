@@ -20,7 +20,7 @@ LANGUAGE_CODES = {
 }
 
 # Initialize Gemini API
-genai.configure(api_key='AIzaSyAp7PqNP4L1hE9HbL-Fbdw-WmKXjnxN1IQ')
+genai.configure(api_key='gemini API key')
 model = genai.GenerativeModel('gemini-pro')
 
 # Fetching the website content with caching
